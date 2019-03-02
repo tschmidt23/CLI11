@@ -85,23 +85,70 @@ Inheritance diagram for CLI::Validator:</div>
  <div class="center">
   <img src="class_c_l_i_1_1_validator.png" usemap="#CLI::Validator_map" alt=""/>
   <map id="CLI::Validator_map" name="CLI::Validator_map">
-<area href="class_c_l_i_1_1detail_1_1_existing_directory_validator.html" title="Check for an existing directory (returns error message if check fails)" alt="CLI::detail::ExistingDirectoryValidator" shape="rect" coords="230,56,450,80"/>
-<area href="class_c_l_i_1_1detail_1_1_existing_file_validator.html" title="Check for an existing file (returns error message if check fails)" alt="CLI::detail::ExistingFileValidator" shape="rect" coords="230,112,450,136"/>
-<area href="class_c_l_i_1_1detail_1_1_existing_path_validator.html" title="Check for an existing path." alt="CLI::detail::ExistingPathValidator" shape="rect" coords="230,168,450,192"/>
-<area href="class_c_l_i_1_1detail_1_1_i_p_v4_validator.html" title="Validate the given string is a legal ipv4 address." alt="CLI::detail::IPV4Validator" shape="rect" coords="230,224,450,248"/>
-<area href="class_c_l_i_1_1detail_1_1_nonexistent_path_validator.html" title="Check for an non-existing path." alt="CLI::detail::NonexistentPathValidator" shape="rect" coords="230,280,450,304"/>
-<area href="class_c_l_i_1_1detail_1_1_positive_number.html" title="Validate the argument is a number and greater than or equal to 0." alt="CLI::detail::PositiveNumber" shape="rect" coords="230,336,450,360"/>
-<area href="class_c_l_i_1_1_is_member.html" title="Verify items are in a set." alt="CLI::IsMember" shape="rect" coords="230,392,450,416"/>
-<area href="class_c_l_i_1_1_range.html" title="Produce a range (factory). Min and max are inclusive." alt="CLI::Range" shape="rect" coords="230,448,450,472"/>
+<area href="class_c_l_i_1_1_bound.html" title="Produce a bounded range (factory). Min and max are inclusive." alt="CLI::Bound" shape="rect" coords="230,56,450,80"/>
+<area href="class_c_l_i_1_1_checked_transformer.html" title="translate named items to other or a value set" alt="CLI::CheckedTransformer" shape="rect" coords="230,112,450,136"/>
+<area href="class_c_l_i_1_1_custom_validator.html" title="Class wrapping some of the accessors of Validator." alt="CLI::CustomValidator" shape="rect" coords="230,168,450,192"/>
+<area href="class_c_l_i_1_1detail_1_1_existing_directory_validator.html" title="Check for an existing directory (returns error message if check fails)" alt="CLI::detail::ExistingDirectoryValidator" shape="rect" coords="230,224,450,248"/>
+<area href="class_c_l_i_1_1detail_1_1_existing_file_validator.html" title="Check for an existing file (returns error message if check fails)" alt="CLI::detail::ExistingFileValidator" shape="rect" coords="230,280,450,304"/>
+<area href="class_c_l_i_1_1detail_1_1_existing_path_validator.html" title="Check for an existing path." alt="CLI::detail::ExistingPathValidator" shape="rect" coords="230,336,450,360"/>
+<area href="class_c_l_i_1_1detail_1_1_i_p_v4_validator.html" title="Validate the given string is a legal ipv4 address." alt="CLI::detail::IPV4Validator" shape="rect" coords="230,392,450,416"/>
+<area href="class_c_l_i_1_1detail_1_1_nonexistent_path_validator.html" title="Check for an non-existing path." alt="CLI::detail::NonexistentPathValidator" shape="rect" coords="230,448,450,472"/>
+<area href="class_c_l_i_1_1detail_1_1_positive_number.html" title="Validate the argument is a number and greater than or equal to 0." alt="CLI::detail::PositiveNumber" shape="rect" coords="230,504,450,528"/>
+<area href="class_c_l_i_1_1_is_member.html" title="Verify items are in a set." alt="CLI::IsMember" shape="rect" coords="230,560,450,584"/>
+<area href="class_c_l_i_1_1_range.html" title="Produce a range (factory). Min and max are inclusive." alt="CLI::Range" shape="rect" coords="230,616,450,640"/>
+<area href="class_c_l_i_1_1_transformer.html" title="Translate named items to other or a value set." alt="CLI::Transformer" shape="rect" coords="230,672,450,696"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a71df7c1c94c4abceee930eef957f5b76"><td class="memItemLeft" align="right" valign="top"><a id="a71df7c1c94c4abceee930eef957f5b76"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a71df7c1c94c4abceee930eef957f5b76">Validator</a> (std::string validator_desc)</td></tr>
+<tr class="memdesc:a71df7c1c94c4abceee930eef957f5b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> with just the description string. <br /></td></tr>
+<tr class="separator:a71df7c1c94c4abceee930eef957f5b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede1b1a51a7f924342a92cbbd3ee41be"><td class="memItemLeft" align="right" valign="top"><a id="aede1b1a51a7f924342a92cbbd3ee41be"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Validator</b> (std::function&lt; std::string(std::string &amp;)&gt; op, std::string validator_desc, std::string validator_name=&quot;&quot;)</td></tr>
+<tr class="separator:aede1b1a51a7f924342a92cbbd3ee41be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2212c754276aab6301823b2e6409d4"><td class="memItemLeft" align="right" valign="top"><a id="a4d2212c754276aab6301823b2e6409d4"></a>
+<a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a4d2212c754276aab6301823b2e6409d4">operation</a> (std::function&lt; std::string(std::string &amp;)&gt; op)</td></tr>
+<tr class="memdesc:a4d2212c754276aab6301823b2e6409d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> operation function. <br /></td></tr>
+<tr class="separator:a4d2212c754276aab6301823b2e6409d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97241be1f8ac1c8d2fabdcf2ec761f49"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a97241be1f8ac1c8d2fabdcf2ec761f49">operator()</a> (std::string &amp;str) const</td></tr>
 <tr class="separator:a97241be1f8ac1c8d2fabdcf2ec761f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4e7670d82455a43c0d3f8c9cc1db4f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a3e4e7670d82455a43c0d3f8c9cc1db4f">operator()</a> (const std::string &amp;str) const</td></tr>
 <tr class="separator:a3e4e7670d82455a43c0d3f8c9cc1db4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d62f88b256ae1587a5c9841f5a42c68"><td class="memItemLeft" align="right" valign="top"><a id="a1d62f88b256ae1587a5c9841f5a42c68"></a>
+<a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a1d62f88b256ae1587a5c9841f5a42c68">description</a> (std::string validator_desc)</td></tr>
+<tr class="memdesc:a1d62f88b256ae1587a5c9841f5a42c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the type string. <br /></td></tr>
+<tr class="separator:a1d62f88b256ae1587a5c9841f5a42c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c9d0a1f496ccaa4a8ef293a41bca78"><td class="memItemLeft" align="right" valign="top"><a id="a77c9d0a1f496ccaa4a8ef293a41bca78"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a77c9d0a1f496ccaa4a8ef293a41bca78">get_description</a> () const</td></tr>
+<tr class="memdesc:a77c9d0a1f496ccaa4a8ef293a41bca78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate type description information for the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a>. <br /></td></tr>
+<tr class="separator:a77c9d0a1f496ccaa4a8ef293a41bca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4116061cd19611de38043a08086852"><td class="memItemLeft" align="right" valign="top"><a id="a6e4116061cd19611de38043a08086852"></a>
+<a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a6e4116061cd19611de38043a08086852">name</a> (std::string validator_name)</td></tr>
+<tr class="memdesc:a6e4116061cd19611de38043a08086852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the type string. <br /></td></tr>
+<tr class="separator:a6e4116061cd19611de38043a08086852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba763211f1b7c9e9866da767ba731999"><td class="memItemLeft" align="right" valign="top"><a id="aba763211f1b7c9e9866da767ba731999"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#aba763211f1b7c9e9866da767ba731999">get_name</a> () const</td></tr>
+<tr class="memdesc:aba763211f1b7c9e9866da767ba731999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a>. <br /></td></tr>
+<tr class="separator:aba763211f1b7c9e9866da767ba731999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e70c77661016b97a19a801b4ec84f5"><td class="memItemLeft" align="right" valign="top"><a id="ad5e70c77661016b97a19a801b4ec84f5"></a>
+<a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#ad5e70c77661016b97a19a801b4ec84f5">active</a> (bool active_val=true)</td></tr>
+<tr class="memdesc:ad5e70c77661016b97a19a801b4ec84f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify whether the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> is active or not. <br /></td></tr>
+<tr class="separator:ad5e70c77661016b97a19a801b4ec84f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3cde5a9bffc4943d4388480d439c1d5"><td class="memItemLeft" align="right" valign="top"><a id="af3cde5a9bffc4943d4388480d439c1d5"></a>
+<a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#af3cde5a9bffc4943d4388480d439c1d5">non_modifying</a> (bool no_modify=true)</td></tr>
+<tr class="memdesc:af3cde5a9bffc4943d4388480d439c1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify whether the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> can be modifying or not. <br /></td></tr>
+<tr class="separator:af3cde5a9bffc4943d4388480d439c1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c08bcd3bca8c446e49e44d2c4e1413f"><td class="memItemLeft" align="right" valign="top"><a id="a1c08bcd3bca8c446e49e44d2c4e1413f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a1c08bcd3bca8c446e49e44d2c4e1413f">get_active</a> () const</td></tr>
+<tr class="memdesc:a1c08bcd3bca8c446e49e44d2c4e1413f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a boolean if the validator is active. <br /></td></tr>
+<tr class="separator:a1c08bcd3bca8c446e49e44d2c4e1413f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb6df41feafbbbe6347a46151d55762"><td class="memItemLeft" align="right" valign="top"><a id="addb6df41feafbbbe6347a46151d55762"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#addb6df41feafbbbe6347a46151d55762">get_modifying</a> () const</td></tr>
+<tr class="memdesc:addb6df41feafbbbe6347a46151d55762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a boolean if the validator is allowed to modify the input returns true if it can modify the input. <br /></td></tr>
+<tr class="separator:addb6df41feafbbbe6347a46151d55762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f66f889d8e006edbad1a58a7e608a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_validator.html">Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#ae5f66f889d8e006edbad1a58a7e608a3">operator &amp;</a> (const <a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;other) const</td></tr>
 <tr class="separator:ae5f66f889d8e006edbad1a58a7e608a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19919604a6ac47c5a1cbd34920991a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_validator.html">Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#ac19919604a6ac47c5a1cbd34920991a4">operator|</a> (const <a class="el" href="class_c_l_i_1_1_validator.html">Validator</a> &amp;other) const</td></tr>
@@ -113,16 +160,24 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a2396b2b4e4af76793f5cc6d684166680"><td class="memItemLeft" align="right" valign="top"><a id="a2396b2b4e4af76793f5cc6d684166680"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a2396b2b4e4af76793f5cc6d684166680">tname</a></td></tr>
-<tr class="memdesc:a2396b2b4e4af76793f5cc6d684166680"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the type name, if empty the type name will not be changed. <br /></td></tr>
-<tr class="separator:a2396b2b4e4af76793f5cc6d684166680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5868d2a22ea00376e7db257be8fbab4c"><td class="memItemLeft" align="right" valign="top"><a id="a5868d2a22ea00376e7db257be8fbab4c"></a>
-std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a5868d2a22ea00376e7db257be8fbab4c">tname_function</a></td></tr>
-<tr class="memdesc:a5868d2a22ea00376e7db257be8fbab4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the type function, if empty the tname will be used. <br /></td></tr>
-<tr class="separator:a5868d2a22ea00376e7db257be8fbab4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc72f2f4b249fc08671e3e6c70af51c"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#aabc72f2f4b249fc08671e3e6c70af51c">func</a></td></tr>
-<tr class="separator:aabc72f2f4b249fc08671e3e6c70af51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f00a86d01b79facfc300be76b7463d7"><td class="memItemLeft" align="right" valign="top"><a id="a9f00a86d01b79facfc300be76b7463d7"></a>
+std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a9f00a86d01b79facfc300be76b7463d7">desc_function_</a> {[]() { return std::string{}; }}</td></tr>
+<tr class="memdesc:a9f00a86d01b79facfc300be76b7463d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the description function, if empty the description_ will be used. <br /></td></tr>
+<tr class="separator:a9f00a86d01b79facfc300be76b7463d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c1eedd7839b91d88246539f2305ef3"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#aa6c1eedd7839b91d88246539f2305ef3">func_</a> {[](std::string &amp;) { return std::string{}; }}</td></tr>
+<tr class="separator:aa6c1eedd7839b91d88246539f2305ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97b23ee16e15ae0b31253feb39706bf"><td class="memItemLeft" align="right" valign="top"><a id="ac97b23ee16e15ae0b31253feb39706bf"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#ac97b23ee16e15ae0b31253feb39706bf">name_</a></td></tr>
+<tr class="memdesc:ac97b23ee16e15ae0b31253feb39706bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name for search purposes of the <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a>. <br /></td></tr>
+<tr class="separator:ac97b23ee16e15ae0b31253feb39706bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558776377513d88bf637b5d775c4e31b"><td class="memItemLeft" align="right" valign="top"><a id="a558776377513d88bf637b5d775c4e31b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a558776377513d88bf637b5d775c4e31b">active_</a> {true}</td></tr>
+<tr class="memdesc:a558776377513d88bf637b5d775c4e31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable for <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> to allow it to be disabled if need be. <br /></td></tr>
+<tr class="separator:a558776377513d88bf637b5d775c4e31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60df532d1d80afc040ec0e8ed2736200"><td class="memItemLeft" align="right" valign="top"><a id="a60df532d1d80afc040ec0e8ed2736200"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_validator.html#a60df532d1d80afc040ec0e8ed2736200">non_modifying_</a> {false}</td></tr>
+<tr class="memdesc:a60df532d1d80afc040ec0e8ed2736200"><td class="mdescLeft">&#160;</td><td class="mdescRight">specify that a validator should not modify the input <br /></td></tr>
+<tr class="separator:a60df532d1d80afc040ec0e8ed2736200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Some validators that are provided. </p>
@@ -178,7 +233,7 @@ std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="b
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is the required operator for a validator - provided to help users (CLI11 uses the member <code>func</code> directly) </p>
+<p>This is the required operator for a <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> - provided to help users (CLI11 uses the member <code>func</code> directly) </p>
 
 </div>
 </div>
@@ -205,7 +260,7 @@ std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="b
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is the required operator for a validator - provided to help users (CLI11 uses the member <code>func</code> directly) </p>
+<p>This is the required operator for a <a class="el" href="class_c_l_i_1_1_validator.html" title="Some validators that are provided.">Validator</a> - provided to help users (CLI11 uses the member <code>func</code> directly) </p>
 
 </div>
 </div>
@@ -237,8 +292,8 @@ std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="b
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aabc72f2f4b249fc08671e3e6c70af51c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabc72f2f4b249fc08671e3e6c70af51c">&#9670;&nbsp;</a></span>func</h2>
+<a id="aa6c1eedd7839b91d88246539f2305ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c1eedd7839b91d88246539f2305ef3">&#9670;&nbsp;</a></span>func_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +302,7 @@ std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="b
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;std::string(std::string &amp;)&gt; CLI::Validator::func</td>
+          <td class="memname">std::function&lt;std::string(std::string &amp;)&gt; CLI::Validator::func_ {[](std::string &amp;) { return std::string{}; }}</td>
         </tr>
       </table>
   </td>

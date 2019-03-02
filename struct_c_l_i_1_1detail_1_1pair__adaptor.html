@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Adaptor for map-like structure: This just wraps a normal container in a few utilities that do almost nothing.  
+<p>Adaptor for set-like structure: This just wraps a normal container in a few utilities that do almost nothing.  
  <a href="struct_c_l_i_1_1detail_1_1pair__adaptor.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_type_tools_8hpp_source.html">TypeTools.hpp</a>&gt;</code></p>
@@ -100,22 +100,22 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>second_type</b> = ty
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7d79cfafa8b50ea0dceb467698a8d1a1"><td class="memTemplParams" colspan="2"><a id="a7d79cfafa8b50ea0dceb467698a8d1a1"></a>
+<tr class="memitem:ab46a8b1544ac182fe15948fe94a75bd6"><td class="memTemplParams" colspan="2"><a id="ab46a8b1544ac182fe15948fe94a75bd6"></a>
 template&lt;typename Q &gt; </td></tr>
-<tr class="memitem:a7d79cfafa8b50ea0dceb467698a8d1a1"><td class="memTemplItemLeft" align="right" valign="top">static first_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1detail_1_1pair__adaptor.html#a7d79cfafa8b50ea0dceb467698a8d1a1">first</a> (Q &amp;&amp;value)</td></tr>
-<tr class="memdesc:a7d79cfafa8b50ea0dceb467698a8d1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first value (really just the underlying value) <br /></td></tr>
-<tr class="separator:a7d79cfafa8b50ea0dceb467698a8d1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f3b31bab45a97a5aedbcbd47fa0b19a"><td class="memTemplParams" colspan="2"><a id="a6f3b31bab45a97a5aedbcbd47fa0b19a"></a>
+<tr class="memitem:ab46a8b1544ac182fe15948fe94a75bd6"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1detail_1_1pair__adaptor.html#ab46a8b1544ac182fe15948fe94a75bd6">first</a> (Q &amp;&amp;pair_value) -&gt; decltype(std::forward&lt; Q &gt;(pair_value))</td></tr>
+<tr class="memdesc:ab46a8b1544ac182fe15948fe94a75bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first value (really just the underlying value) <br /></td></tr>
+<tr class="separator:ab46a8b1544ac182fe15948fe94a75bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f2f87359de8d01c72ac645c6ada8c8"><td class="memTemplParams" colspan="2"><a id="a69f2f87359de8d01c72ac645c6ada8c8"></a>
 template&lt;typename Q &gt; </td></tr>
-<tr class="memitem:a6f3b31bab45a97a5aedbcbd47fa0b19a"><td class="memTemplItemLeft" align="right" valign="top">static second_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1detail_1_1pair__adaptor.html#a6f3b31bab45a97a5aedbcbd47fa0b19a">second</a> (Q &amp;&amp;value)</td></tr>
-<tr class="memdesc:a6f3b31bab45a97a5aedbcbd47fa0b19a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the second value (really just the underlying value) <br /></td></tr>
-<tr class="separator:a6f3b31bab45a97a5aedbcbd47fa0b19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f2f87359de8d01c72ac645c6ada8c8"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1detail_1_1pair__adaptor.html#a69f2f87359de8d01c72ac645c6ada8c8">second</a> (Q &amp;&amp;pair_value) -&gt; decltype(std::forward&lt; Q &gt;(pair_value))</td></tr>
+<tr class="memdesc:a69f2f87359de8d01c72ac645c6ada8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the second value (really just the underlying value) <br /></td></tr>
+<tr class="separator:a69f2f87359de8d01c72ac645c6ada8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T, typename _ = void&gt;<br />
 struct CLI::detail::pair_adaptor&lt; T, _ &gt;</h3>
 
-<p>Adaptor for map-like structure: This just wraps a normal container in a few utilities that do almost nothing. </p>
+<p>Adaptor for set-like structure: This just wraps a normal container in a few utilities that do almost nothing. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/home/travis/build/CLIUtils/CLI11/include/CLI/<a class="el" href="_type_tools_8hpp_source.html">TypeTools.hpp</a></li>
 </ul>

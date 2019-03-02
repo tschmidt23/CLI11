@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['get_5factive',['get_active',['../class_c_l_i_1_1_validator.html#a1c08bcd3bca8c446e49e44d2c4e1413f',1,'CLI::Validator']]],
   ['get_5fallow_5fconfig_5fextras',['get_allow_config_extras',['../class_c_l_i_1_1_app.html#a5d65ae4bfe40b6592b5c408f26b90acb',1,'CLI::App']]],
   ['get_5fallow_5fextras',['get_allow_extras',['../class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133',1,'CLI::App']]],
   ['get_5fallow_5fwindows_5fstyle_5foptions',['get_allow_windows_style_options',['../class_c_l_i_1_1_app.html#a3620a019821239f7d8be472cead88cd2',1,'CLI::App']]],
@@ -11,7 +12,7 @@ var searchData=
   ['get_5fconfigurable',['get_configurable',['../class_c_l_i_1_1_option_base.html#a148499af929ff2498d1ef3567fc18dfc',1,'CLI::OptionBase']]],
   ['get_5fdefault',['get_default',['../class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398',1,'CLI::Option']]],
   ['get_5fdefaultval',['get_defaultval',['../class_c_l_i_1_1_option.html#acdc83d34e33159c47533168dfb51d9f2',1,'CLI::Option']]],
-  ['get_5fdescription',['get_description',['../class_c_l_i_1_1_app.html#ab7637441b1cd7fb2fcf5e7e095e779a7',1,'CLI::App::get_description()'],['../class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af',1,'CLI::Option::get_description()']]],
+  ['get_5fdescription',['get_description',['../class_c_l_i_1_1_app.html#ab7637441b1cd7fb2fcf5e7e095e779a7',1,'CLI::App::get_description()'],['../class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af',1,'CLI::Option::get_description()'],['../class_c_l_i_1_1_validator.html#a77c9d0a1f496ccaa4a8ef293a41bca78',1,'CLI::Validator::get_description()']]],
   ['get_5fdisable_5fflag_5foverride',['get_disable_flag_override',['../class_c_l_i_1_1_option_base.html#a07c4e6b7c4a7c3af4e147613d5e39aa0',1,'CLI::OptionBase']]],
   ['get_5fdisabled',['get_disabled',['../class_c_l_i_1_1_app.html#a770812d1989ce390b1919080d55a65d3',1,'CLI::App']]],
   ['get_5fdisplay_5fname',['get_display_name',['../class_c_l_i_1_1_app.html#ae29f7783c9d8725a6262b1f025f6a4d4',1,'CLI::App']]],
@@ -31,8 +32,9 @@ var searchData=
   ['get_5fitems_5fexpected',['get_items_expected',['../class_c_l_i_1_1_option.html#afe31a608506cbe75d40d6cced342be11',1,'CLI::Option']]],
   ['get_5flabel',['get_label',['../class_c_l_i_1_1_formatter_base.html#a7e8f9d7896c599f7befd84a9947d4cab',1,'CLI::FormatterBase']]],
   ['get_5flnames',['get_lnames',['../class_c_l_i_1_1_option.html#aa0d9acb900f807ea57fc4a6388765b20',1,'CLI::Option']]],
+  ['get_5fmodifying',['get_modifying',['../class_c_l_i_1_1_validator.html#addb6df41feafbbbe6347a46151d55762',1,'CLI::Validator']]],
   ['get_5fmulti_5foption_5fpolicy',['get_multi_option_policy',['../class_c_l_i_1_1_option_base.html#a67ade2fd6f98b5a77c45b18c3d8ae639',1,'CLI::OptionBase']]],
-  ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#ab84751fbf9037efaed5b64fed17fe57f',1,'CLI::Option::get_name()']]],
+  ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#ab84751fbf9037efaed5b64fed17fe57f',1,'CLI::Option::get_name()'],['../class_c_l_i_1_1_validator.html#aba763211f1b7c9e9866da767ba731999',1,'CLI::Validator::get_name()']]],
   ['get_5fneeds',['get_needs',['../class_c_l_i_1_1_option.html#a4b1679e5e219ba5fc1849b69531d5c05',1,'CLI::Option']]],
   ['get_5foption',['get_option',['../class_c_l_i_1_1_app.html#a947c36b1f8acad786a30d8b26edf4116',1,'CLI::App::get_option(std::string option_name) const'],['../class_c_l_i_1_1_app.html#aa781566f8028b97d0c26fd973d880864',1,'CLI::App::get_option(std::string option_name)']]],
   ['get_5foption_5fno_5fthrow',['get_option_no_throw',['../class_c_l_i_1_1_app.html#a965d588ba3c90c8dbd7708bf4dd1f53a',1,'CLI::App::get_option_no_throw(std::string option_name) noexcept'],['../class_c_l_i_1_1_app.html#ab411f7f4dc22684f795fbdda4b8639ee',1,'CLI::App::get_option_no_throw(std::string option_name) const noexcept']]],
@@ -52,6 +54,7 @@ var searchData=
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#adf5b6792ad7849c6966825320fc9b85d',1,'CLI::App::get_subcommands() const'],['../class_c_l_i_1_1_app.html#ac03e5e9ca00d2d0b5d20c362e6dcbe9f',1,'CLI::App::get_subcommands(const std::function&lt; bool(const App *)&gt; &amp;filter) const'],['../class_c_l_i_1_1_app.html#a9dca85c30eb14dd7e3f02f07e4f68c5c',1,'CLI::App::get_subcommands(const std::function&lt; bool(App *)&gt; &amp;filter)']]],
   ['get_5ftype_5fname',['get_type_name',['../class_c_l_i_1_1_option.html#a8b8425827ceb852c3cc3f44b9b1c26a4',1,'CLI::Option']]],
   ['get_5ftype_5fsize',['get_type_size',['../class_c_l_i_1_1_option.html#a88f36e42c1afcf1d4887230cc133f1fa',1,'CLI::Option']]],
+  ['get_5fvalidator',['get_validator',['../class_c_l_i_1_1_option.html#a4c48805e92a36df603b6ec39f9bc2ed3',1,'CLI::Option']]],
   ['got_5fsubcommand',['got_subcommand',['../class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f',1,'CLI::App::got_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a5afd7a600223bae58b46aaff670e2d25',1,'CLI::App::got_subcommand(std::string subcommand_name) const']]],
   ['group',['group',['../class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611',1,'CLI::App::group()'],['../class_c_l_i_1_1_option_base.html#a02b335b9ae22c4253b9850da04f02054',1,'CLI::OptionBase::group()']]],
   ['group_5f',['group_',['../class_c_l_i_1_1_app.html#ac31738f617c3ce7aaf9fd94c3f54fc0f',1,'CLI::App::group_()'],['../class_c_l_i_1_1_option_base.html#ad0d8bd0637023f7d87a8e95315e8fb21',1,'CLI::OptionBase::group_()']]]

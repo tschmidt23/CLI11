@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['operation',['operation',['../class_c_l_i_1_1_validator.html#a4d2212c754276aab6301823b2e6409d4',1,'CLI::Validator']]],
   ['operator_20_26',['operator &amp;',['../class_c_l_i_1_1_validator.html#ae5f66f889d8e006edbad1a58a7e608a3',1,'CLI::Validator']]],
   ['operator_20bool',['operator bool',['../class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e',1,'CLI::App::operator bool()'],['../class_c_l_i_1_1_option.html#ab73e846fb3a78ac7eff8b6cd6afb24a1',1,'CLI::Option::operator bool()']]],
   ['operator_21',['operator!',['../class_c_l_i_1_1_validator.html#ab113af781dbc286b22cdfeedd5204e68',1,'CLI::Validator']]],
