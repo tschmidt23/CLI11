@@ -2,6 +2,7 @@ var searchData=
 [
   ['_5fconfigure',['_configure',['../class_c_l_i_1_1_app.html#acd99119433fcca2901ad13714d3acb0a',1,'CLI::App']]],
   ['_5fcount_5fremaining_5fpositionals',['_count_remaining_positionals',['../class_c_l_i_1_1_app.html#a1b51f0ac549a6d6033108dd7c33a7de9',1,'CLI::App']]],
+  ['_5ffind_5fsubcommand',['_find_subcommand',['../class_c_l_i_1_1_app.html#acf799ac4fea215612ea25695f4d8211f',1,'CLI::App']]],
   ['_5fmove_5foption',['_move_option',['../class_c_l_i_1_1_app.html#aaabfb31d7fb10ee7465716b948b376dc',1,'CLI::App']]],
   ['_5fparse',['_parse',['../class_c_l_i_1_1_app.html#a241ba75a6c98b36349ae2f71a9137291',1,'CLI::App']]],
   ['_5fparse_5farg',['_parse_arg',['../class_c_l_i_1_1_app.html#a902f6d8ee25035e7137264652f3cfd33',1,'CLI::App']]],
