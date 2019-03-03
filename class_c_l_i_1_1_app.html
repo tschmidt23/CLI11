@@ -364,7 +364,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a74fa8829acfe2311724ecad5bdb91dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770812d1989ce390b1919080d55a65d3"><td class="memItemLeft" align="right" valign="top"><a id="a770812d1989ce390b1919080d55a65d3"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a770812d1989ce390b1919080d55a65d3">get_disabled</a> () const</td></tr>
-<tr class="memdesc:a770812d1989ce390b1919080d55a65d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of required. <br /></td></tr>
+<tr class="memdesc:a770812d1989ce390b1919080d55a65d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of disabled. <br /></td></tr>
 <tr class="separator:a770812d1989ce390b1919080d55a65d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d65ae4bfe40b6592b5c408f26b90acb"><td class="memItemLeft" align="right" valign="top"><a id="a5d65ae4bfe40b6592b5c408f26b90acb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5d65ae4bfe40b6592b5c408f26b90acb">get_allow_config_extras</a> () const</td></tr>
@@ -492,14 +492,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a1b51f0ac549a6d6033108dd7c33a7de9">_count_remaining_positionals</a> (bool required_only=false) const</td></tr>
 <tr class="memdesc:a1b51f0ac549a6d6033108dd7c33a7de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the required remaining positional arguments. <br /></td></tr>
 <tr class="separator:a1b51f0ac549a6d6033108dd7c33a7de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a737881acf2e03c6d316b14fd6d8a5073"><td class="memItemLeft" align="right" valign="top"><a id="a737881acf2e03c6d316b14fd6d8a5073"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a737881acf2e03c6d316b14fd6d8a5073">_parse_positional</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
-<tr class="memdesc:a737881acf2e03c6d316b14fd6d8a5073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a positional, go up the tree to check. <br /></td></tr>
+<tr class="memitem:a737881acf2e03c6d316b14fd6d8a5073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a737881acf2e03c6d316b14fd6d8a5073">_parse_positional</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
+<tr class="memdesc:a737881acf2e03c6d316b14fd6d8a5073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a positional, go up the tree to check.  <a href="#a737881acf2e03c6d316b14fd6d8a5073">More...</a><br /></td></tr>
 <tr class="separator:a737881acf2e03c6d316b14fd6d8a5073"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf799ac4fea215612ea25695f4d8211f"><td class="memItemLeft" align="right" valign="top"><a id="acf799ac4fea215612ea25695f4d8211f"></a>
-<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#acf799ac4fea215612ea25695f4d8211f">_find_subcommand</a> (const std::string &amp;subc_name, bool ignore_disabled) const noexcept</td></tr>
-<tr class="memdesc:acf799ac4fea215612ea25695f4d8211f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate a subcommand by name. <br /></td></tr>
-<tr class="separator:acf799ac4fea215612ea25695f4d8211f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9670591ce14529c3a153c972c76e9eef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9670591ce14529c3a153c972c76e9eef">_find_subcommand</a> (const std::string &amp;subc_name, bool ignore_disabled, bool ignore_used) const noexcept</td></tr>
+<tr class="separator:a9670591ce14529c3a153c972c76e9eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426161917aba1daec0fdc5f3b6950e02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a426161917aba1daec0fdc5f3b6950e02">_parse_subcommand</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="separator:a426161917aba1daec0fdc5f3b6950e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a902f6d8ee25035e7137264652f3cfd33"><td class="memItemLeft" align="right" valign="top"><a id="a902f6d8ee25035e7137264652f3cfd33"></a>
@@ -910,6 +907,49 @@ template&lt;typename T  = Option_group&gt; </td></tr>
 
 </div>
 </div>
+<a id="a9670591ce14529c3a153c972c76e9eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9670591ce14529c3a153c972c76e9eef">&#9670;&nbsp;</a></span>_find_subcommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_app.html">App</a>* CLI::App::_find_subcommand </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>subc_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_disabled</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_used</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Locate a subcommand by name with two conditions, should disabled subcommands be ignored, and should used subcommands be ignored </p>
+
+</div>
+</div>
 <a id="aee09795046c3b47948e6c2fa45349eca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee09795046c3b47948e6c2fa45349eca">&#9670;&nbsp;</a></span>_parse_config()</h2>
 
@@ -935,6 +975,35 @@ template&lt;typename T  = Option_group&gt; </td></tr>
 </div><div class="memdoc">
 <p>Parse one config param, return false if not found in any subcommand, remove if it is</p>
 <p>If this has more than one dot.separated.name, go into the subcommand matching it Returns true if it managed to find the option, if false you'll need to remove the arg manually. </p>
+
+</div>
+</div>
+<a id="a737881acf2e03c6d316b14fd6d8a5073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737881acf2e03c6d316b14fd6d8a5073">&#9670;&nbsp;</a></span>_parse_positional()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLI::App::_parse_positional </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a positional, go up the tree to check. </p>
+<p>now try one last gasp at subcommands that have been executed before, go to root app and try to find a subcommand in a broader way </p>
 
 </div>
 </div>
