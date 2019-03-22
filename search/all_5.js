@@ -4,6 +4,8 @@ var searchData=
   ['element_5ftype',['element_type',['../struct_c_l_i_1_1detail_1_1element__type.html',1,'CLI::detail']]],
   ['element_5fvalue_5ftype',['element_value_type',['../struct_c_l_i_1_1detail_1_1element__value__type.html',1,'CLI::detail']]],
   ['empty',['empty',['../class_c_l_i_1_1_option.html#afb65d823ffffd55df8fc393bf5f6d262',1,'CLI::Option']]],
+  ['enabled_5fby_5fdefault',['enabled_by_default',['../class_c_l_i_1_1_app.html#afce0e89d19f39a0ba4532bb82315b817',1,'CLI::App']]],
+  ['enabled_5fby_5fdefault_5f',['enabled_by_default_',['../class_c_l_i_1_1_app.html#a3654c9790f95395ec6cd8fc2fb2bbd54',1,'CLI::App']]],
   ['envname',['envname',['../class_c_l_i_1_1_option.html#aa1969c5f5a525910d761756a6d8e63a8',1,'CLI::Option']]],
   ['envname_5f',['envname_',['../class_c_l_i_1_1_option.html#acac4bf11cbd933967ced9175946ffbe6',1,'CLI::Option']]],
   ['error',['Error',['../class_c_l_i_1_1_error.html',1,'CLI']]],
