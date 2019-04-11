@@ -4,7 +4,6 @@ var searchData=
   ['set_5fconfig',['set_config',['../class_c_l_i_1_1_app.html#a3fb588ddc2730ef887b68d3fc61e481a',1,'CLI::App']]],
   ['set_5fhelp_5fall_5fflag',['set_help_all_flag',['../class_c_l_i_1_1_app.html#a48b15f921a89e4d7c23fc6c79247d2f7',1,'CLI::App']]],
   ['set_5fhelp_5fflag',['set_help_flag',['../class_c_l_i_1_1_app.html#abe50e78fd6074cec393102adb9114a14',1,'CLI::App']]],
-  ['set_5fresults',['set_results',['../class_c_l_i_1_1_option.html#a51f6c1a8ae1d5b80605fa39fcf41dc8e',1,'CLI::Option']]],
   ['sfinae_5ftrue',['sfinae_true',['../struct_c_l_i_1_1detail_1_1sfinae__true.html',1,'CLI::detail']]],
   ['simple',['Simple',['../class_c_l_i_1_1_timer.html#ada74be7f819d3eaa65e3e829a582be32',1,'CLI::Timer']]],
   ['snames_5f',['snames_',['../class_c_l_i_1_1_option.html#a7d8ef1d4012fde878668c943d9b197bc',1,'CLI::Option']]],

@@ -59,6 +59,7 @@ var searchData=
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#adf5b6792ad7849c6966825320fc9b85d',1,'CLI::App::get_subcommands() const'],['../class_c_l_i_1_1_app.html#ac03e5e9ca00d2d0b5d20c362e6dcbe9f',1,'CLI::App::get_subcommands(const std::function&lt; bool(const App *)&gt; &amp;filter) const'],['../class_c_l_i_1_1_app.html#a9dca85c30eb14dd7e3f02f07e4f68c5c',1,'CLI::App::get_subcommands(const std::function&lt; bool(App *)&gt; &amp;filter)']]],
   ['get_5ftype_5fname',['get_type_name',['../class_c_l_i_1_1_option.html#a8b8425827ceb852c3cc3f44b9b1c26a4',1,'CLI::Option']]],
   ['get_5ftype_5fsize',['get_type_size',['../class_c_l_i_1_1_option.html#a88f36e42c1afcf1d4887230cc133f1fa',1,'CLI::Option']]],
+  ['get_5fvalidate_5fpositionals',['get_validate_positionals',['../class_c_l_i_1_1_app.html#a7563b3694b8ee4b14e7183966dc77f69',1,'CLI::App']]],
   ['get_5fvalidator',['get_validator',['../class_c_l_i_1_1_option.html#a4c48805e92a36df603b6ec39f9bc2ed3',1,'CLI::Option']]],
   ['got_5fsubcommand',['got_subcommand',['../class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f',1,'CLI::App::got_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a5afd7a600223bae58b46aaff670e2d25',1,'CLI::App::got_subcommand(std::string subcommand_name) const']]],
   ['group',['group',['../class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611',1,'CLI::App::group()'],['../class_c_l_i_1_1_option_base.html#a02b335b9ae22c4253b9850da04f02054',1,'CLI::OptionBase::group()']]],

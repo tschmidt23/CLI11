@@ -7,5 +7,6 @@ var searchData=
   ['non_5fmodifying',['non_modifying',['../class_c_l_i_1_1_validator.html#af3cde5a9bffc4943d4388480d439c1d5',1,'CLI::Validator']]],
   ['non_5fmodifying_5f',['non_modifying_',['../class_c_l_i_1_1_validator.html#a60df532d1d80afc040ec0e8ed2736200',1,'CLI::Validator']]],
   ['nonexistentpathvalidator',['NonexistentPathValidator',['../class_c_l_i_1_1detail_1_1_nonexistent_path_validator.html',1,'CLI::detail']]],
-  ['nonpositional',['nonpositional',['../class_c_l_i_1_1_option.html#a94cc5149d388be946c449e8ee61cd034',1,'CLI::Option']]]
+  ['nonpositional',['nonpositional',['../class_c_l_i_1_1_option.html#a94cc5149d388be946c449e8ee61cd034',1,'CLI::Option']]],
+  ['number',['Number',['../class_c_l_i_1_1detail_1_1_number.html',1,'CLI::detail']]]
 ];
